@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart Holiday Meeting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="Aramark_logo.png" alt="Logo">
+    </div>
+    <div class="quiz-container">
+        <h1>Trivia Aramark</h1>
+        <div id="quiz">
+            <!-- Pregunta 1 -->
+            <div class="question" data-question="1">
+                <p><h3>Pregunta 1:</h3></p>
+                <p>¿Sabes qué servicios entregamos?</p>
+                <ul class="options">
+                    <li><input type="radio" id="q1a" name="q1" value="0"><label for="q1a">A. Servicios de Alimentación</label></li>
+                    <li><input type="radio" id="q1b" name="q1" value="0"><label for="q1b">B. Gestión de Instalaciones</label></li>
+                    <li><input type="radio" id="q1c" name="q1" value="0"><label for="q1c">C. Retail</label></li>
+                    <li><input type="radio" id="q1d" name="q1" value="1"><label for="q1d">D. Todas las anteriores</label></li>
+                </ul>
+                <p class="description" id="desc1"></p>
+            </div>
+            <!-- Pregunta 2 -->
+            <div class="question" data-question="2" style="display: none;">
+                <p><h3>Pregunta 2:</h3></p>
+                <p>¿Dónde fue fundado Aramark?</p>
+                <ul class="options">
+                    <li><input type="radio" id="q2a" name="q2" value="1"><label for="q2a">A. Filadelfia, Estados Unidos</label></li>
+                    <li><input type="radio" id="q2b" name="q2" value="0"><label for="q2b">B. Santiago, Chile</label></li>
+                    <li><input type="radio" id="q2c" name="q2" value="0"><label for="q2c">C. Toronto, Canadá</label></li>
+                    <li><input type="radio" id="q2d" name="q2" value="0"><label for="q2d">D. Dusseldorf, Alemania</label></li>
+                </ul>
+                <p class="description" id="desc2"></p>
+            </div>
+            <!-- Pregunta 3 -->
+            <div class="question" data-question="3" style="display: none;">
+                <p><h3>Pregunta 3:</h3></p>
+                <p>¿Cuántos trabajadores tenemos en Chile?</p>
+                <ul class="options">
+                    <li><input type="radio" id="q3a" name="q3" value="0"><label for="q3a">A. Entre 1.000 a 5.000.</label></li>
+                    <li><input type="radio" id="q3b" name="q3" value="0"><label for="q3b">B. Entre 5001 a 10.000</label></li>
+                    <li><input type="radio" id="q3c" name="q3" value="0"><label for="q3c">C. Entre 10.001 a 20.000</label></li>
+                    <li><input type="radio" id="q3d" name="q3" value="1"><label for="q3d">D. Más de 25.000</label></li>
+                </ul>
+                <p class="description" id="desc3"></p>
+            </div>
+            <!-- Pregunta 4 -->
+            <div class="question" data-question="4" style="display: none;">
+                <p><h3>Pregunta 4:</h3></p>
+                <p>
+                    ¿Cuál es la ciudad más austral de Chile donde Anamark brinda servicios?</p>
+                <ul class="options">
+                    <li><input type="radio" id="q4a" name="q4" value="0"><label for="q4a">A. Punta Arenas</label></li>
+                    <li><input type="radio" id="q4b" name="q4" value="1"><label for="q4b">B. Porvenir</label></li>
+                    <li><input type="radio" id="q4c" name="q4" value="0"><label for="q4c">C. Puerto Natales</label></li>
+                    <li><input type="radio" id="q4d" name="q4" value="0"><label for="q4d">D. Balmaceda</label></li>
+                </ul>
+                <p class="description" id="desc4"></p>
+            </div>
+            <button id="next-btn" disabled>Siguiente Pregunta</button>
+        </div>
+
+        <div id="score-container">
+            <h2>Tu puntaje: <span id="score"></span> de 4 Preguntas</h2>
+            <button id="restart-btn">Reiniciar Trivia</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
