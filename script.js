@@ -11,7 +11,7 @@ const descriptions = {
         incorrect: "No es correcto. Aramark fue fundada en 1936 en Filadelfia, Estados Unidos. Con el tiempo, la compañía expandió sus servicios a la gestión de alimentos y servicios de apoyo, adoptando el nombre de Aramark en 1969."
     },
     3: {
-        correct: "¡¡Correcto! Somos más de 25.000 trabajadores a lo largo de todo Chile. Los detalles que hacen nuestros colaboradores son los que nos hacen grandes.",
+        correct: "¡Correcto! Somos más de 25.000 trabajadores a lo largo de todo Chile. Los detalles que hacen nuestros colaboradores son los que nos hacen grandes.",
         incorrect: "Incorrecto. Somos más de 25.000 trabajadores a lo largo de todo Chile. Los detalles que hacen nuestros colaboradores son los que nos hacen grandes."
     },
     4: {
